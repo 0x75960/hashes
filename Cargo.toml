@@ -1,0 +1,10 @@
+[package]
+name = "hashes"
+version = "0.1.0"
+authors = ["Hiromitsu Oshiba <0x75960@strelka.cc>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+midy = {version="0.1.0", git="https://github.com/0x75960/midy.rs"}
